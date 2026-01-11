@@ -1,16 +1,64 @@
-# React + Vite
+# Pomo Lite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, minimalist Pomodoro timer built with React and Tailwind CSS. Designed for focus with a clean aesthetic and customizable audio controls.
 
-Currently, two official plugins are available:
+![Pomodoro Timer Preview](public/vite.svg) 
+*(Note: Replace with actual screenshot if available)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Minimalist Design**: Distraction-free interface with clean typography and whitespace.
+- **Customizable Modes**: Adjustable durations for Focus, Short Break, and Long Break.
+- **Enhanced Audio**:
+  - 5 Synthetic Sound Types (Beep, Digital, Soft, Arcade, Alert).
+  - Configurable sound duration (1s, 3s, 5s, 10s).
+- **Responsive**: Seamless experience on desktop and mobile.
+- **Modern Stack**: Built with React 19, Vite, and Tailwind CSS v4.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js (v20 or higher recommended)
+- npm
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/philaser/pomo-lite.git
+    cd pomo-lite
+    ```
+
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3.  Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+4.  Open `http://localhost:5173` in your browser.
+
+## Building for Production
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+The output will be in the `dist` directory.
+
+## Technologies Used
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React](https://lucide.dev/) (Icons)
+
+## License
+
+MIT
