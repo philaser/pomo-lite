@@ -2,8 +2,7 @@
 
 A premium, minimalist Pomodoro timer built with React and Tailwind CSS. Designed for focus with a clean aesthetic and customizable audio controls.
 
-![Pomodoro Timer Preview](public/vite.svg) 
-*(Note: Replace with actual screenshot if available)*
+![Pomodoro Timer Preview](public/sample.png)
 
 ## Features
 
